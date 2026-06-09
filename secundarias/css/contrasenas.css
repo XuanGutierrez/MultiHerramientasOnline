@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== HEADER ===== */
+.header {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.header p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* ===== MAIN ===== */
+.main {
+  flex: 1; /* ocupa todo el espacio disponible */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+/* ===== GENERADOR ===== */
+.password-generator {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  width: 90%;
+  max-width: 480px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.password-generator:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* ===== INPUT Y BOTONES ===== */
+.generator-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+#password {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+button {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #0056b3, #0099ff);
+  transform: scale(1.05);
+}
+
+/* ===== OPCIONES ===== */
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* ===== INDICADOR DE SEGURIDAD ===== */
+.strength {
+  margin-top: 20px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.strength.weak { background-color: #ff4d4d; color: white; }
+.strength.medium { background-color: #ffcc00; color: #333; }
+.strength.strong { background-color: #4CAF50; color: white; }
+
+/* ===== FOOTER ===== */
+.footer {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  margin-top: auto; /* empuja el footer al fondo */
+}
+
+.footer a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #e0e0e0;
+}
+/* 📱 RESPONSIVE PARA MÓVILES */
+@media (max-width: 768px) {
+
+    /* ===== HEADER ===== */
+    .header {
+        padding: 35px 15px;
+    }
+
+    .header h1 {
+        font-size: 1.8rem;
+    }
+
+    .header p {
+        font-size: 0.95rem;
+    }
+
+    /* ===== MAIN ===== */
+    .main {
+        padding: 20px 15px;
+    }
+
+    /* ===== GENERADOR ===== */
+    .password-generator {
+        padding: 1.8rem;
+        width: 100%;
+        border-radius: 14px;
+    }
+
+    /* ===== INPUT + BOTONES ===== */
+    .generator-box {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    #password {
+        width: 100%;
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 0.8rem;
+        font-size: 0.95rem;
+    }
+
+    /* ===== OPCIONES ===== */
+    .options {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .options label {
+        font-size: 0.95rem;
+    }
+
+    .options input[type="number"] {
+        width: 70px;
+        padding: 0.4rem;
+    }
+
+    /* ===== INDICADOR DE SEGURIDAD ===== */
+    .strength {
+        font-size: 0.95rem;
+        padding: 0.8rem;
+        margin-top: 15px;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+        padding: 18px;
+        font-size: 0.85rem;
+    }
+
+    .footer a {
+        font-size: 0.9rem;
+    }
+}

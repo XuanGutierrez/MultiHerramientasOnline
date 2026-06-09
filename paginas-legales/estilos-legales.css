@@ -1,0 +1,98 @@
+/* ===== ESTILO GENERAL ===== */
+body {
+  background: #f7f9fc;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* ===== TITULOS ===== */
+h1 {
+  font-size: 2.4rem;
+  color: #0077ff;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.6rem;
+  color: #005fcc;
+  margin-top: 35px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #0077ff;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+/* ===== PÁRRAFOS ===== */
+p {
+  margin-bottom: 18px;
+  font-size: 1.05rem;
+  color: #444;
+}
+
+/* ===== ENLACES ===== */
+a {
+  color: #0077ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== LISTAS ===== */
+ul, ol {
+  margin: 15px 0 20px 25px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* ===== CAJAS DESTACADAS ===== */
+.notice-box {
+  background: #eaf3ff;
+  border-left: 4px solid #0077ff;
+  padding: 15px 18px;
+  margin: 25px 0;
+  border-radius: 8px;
+  color: #333;
+}
+
+/* ===== FOOTER LEGAL ===== */
+.legal-footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  body {
+    padding: 25px 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}

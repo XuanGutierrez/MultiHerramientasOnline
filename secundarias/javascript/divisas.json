@@ -1,0 +1,241 @@
+{
+  "XAU": {
+    "nombre": "Oro",
+    "categoria": "Metal precioso",
+    "pais": "No aplica"
+  },
+  "XAG": {
+    "nombre": "Plata",
+    "categoria": "Metal precioso",
+    "pais": "No aplica"
+  },
+  "XPT": {
+    "nombre": "Platino",
+    "categoria": "Metal precioso",
+    "pais": "No aplica"
+  },
+  "XPD": {
+    "nombre": "Paladio",
+    "categoria": "Metal precioso",
+    "pais": "No aplica"
+  },
+  "CLF": {
+    "nombre": "Unidad de Fomento",
+    "categoria": "Moneda sintética",
+    "pais": "Chile"
+  },
+  "CNH": {
+    "nombre": "Yuan chino offshore",
+    "categoria": "Moneda sintética",
+    "pais": "Mercado internacional"
+  },
+  "XDR": {
+    "nombre": "Derechos especiales de giro",
+    "categoria": "FMI",
+    "pais": "Fondo Monetario Internacional"
+  },
+  "XCG": {
+    "nombre": "Crypto Global Unit",
+    "categoria": "Moneda sintética",
+    "pais": "No aplica"
+  },
+  "FOK": {
+    "nombre": "Corona feroesa",
+    "categoria": "Territorio especial",
+    "pais": "Islas Feroe"
+  },
+  "GGP": {
+    "nombre": "Libra de Guernsey",
+    "categoria": "Territorio especial",
+    "pais": "Guernsey"
+  },
+  "IMP": {
+    "nombre": "Libra de Isla de Man",
+    "categoria": "Territorio especial",
+    "pais": "Isla de Man"
+  },
+  "JEP": {
+    "nombre": "Libra de Jersey",
+    "categoria": "Territorio especial",
+    "pais": "Jersey"
+  },
+  "AED": { "nombre": "Dirham de los Emiratos Árabes Unidos", "categoria": "Moneda nacional", "pais": "Emiratos Árabes Unidos" },
+  "AFN": { "nombre": "Afgani afgano", "categoria": "Moneda nacional", "pais": "Afganistán" },
+  "ALL": { "nombre": "Lek albanés", "categoria": "Moneda nacional", "pais": "Albania" },
+  "AMD": { "nombre": "Dram armenio", "categoria": "Moneda nacional", "pais": "Armenia" },
+  "ANG": { "nombre": "Florín antillano neerlandés", "categoria": "Moneda nacional", "pais": "Antillas Neerlandesas" },
+  "AOA": { "nombre": "Kwanza angoleño", "categoria": "Moneda nacional", "pais": "Angola" },
+  "ARS": { "nombre": "Peso argentino", "categoria": "Moneda nacional", "pais": "Argentina" },
+  "AUD": { "nombre": "Dólar australiano", "categoria": "Moneda nacional", "pais": "Australia" },
+  "AWG": { "nombre": "Florín arubeño", "categoria": "Moneda nacional", "pais": "Aruba" },
+  "AZN": { "nombre": "Manat azerbaiyano", "categoria": "Moneda nacional", "pais": "Azerbaiyán" },
+
+  "BAM": { "nombre": "Marco convertible", "categoria": "Moneda nacional", "pais": "Bosnia y Herzegovina" },
+  "BBD": { "nombre": "Dólar de Barbados", "categoria": "Moneda nacional", "pais": "Barbados" },
+  "BDT": { "nombre": "Taka bangladesí", "categoria": "Moneda nacional", "pais": "Bangladés" },
+  "BGN": { "nombre": "Lev búlgaro", "categoria": "Moneda nacional", "pais": "Bulgaria" },
+  "BHD": { "nombre": "Dinar bahreiní", "categoria": "Moneda nacional", "pais": "Baréin" },
+  "BIF": { "nombre": "Franco burundés", "categoria": "Moneda nacional", "pais": "Burundi" },
+  "BMD": { "nombre": "Dólar bermudeño", "categoria": "Moneda nacional", "pais": "Bermudas" },
+  "BND": { "nombre": "Dólar de Brunéi", "categoria": "Moneda nacional", "pais": "Brunéi" },
+  "BOB": { "nombre": "Boliviano", "categoria": "Moneda nacional", "pais": "Bolivia" },
+  "BRL": { "nombre": "Real brasileño", "categoria": "Moneda nacional", "pais": "Brasil" },
+  "BSD": { "nombre": "Dólar bahameño", "categoria": "Moneda nacional", "pais": "Bahamas" },
+  "BTN": { "nombre": "Ngultrum butanés", "categoria": "Moneda nacional", "pais": "Bután" },
+  "BWP": { "nombre": "Pula botsuano", "categoria": "Moneda nacional", "pais": "Botsuana" },
+  "BYN": { "nombre": "Rublo bielorruso", "categoria": "Moneda nacional", "pais": "Bielorrusia" },
+  "BZD": { "nombre": "Dólar beliceño", "categoria": "Moneda nacional", "pais": "Belice" },
+
+  "CAD": { "nombre": "Dólar canadiense", "categoria": "Moneda nacional", "pais": "Canadá" },
+  "CDF": { "nombre": "Franco congoleño", "categoria": "Moneda nacional", "pais": "República Democrática del Congo" },
+  "CHF": { "nombre": "Franco suizo", "categoria": "Moneda nacional", "pais": "Suiza" },
+  "CLP": { "nombre": "Peso chileno", "categoria": "Moneda nacional", "pais": "Chile" },
+  "CNY": { "nombre": "Yuan chino", "categoria": "Moneda nacional", "pais": "China" },
+  "COP": { "nombre": "Peso colombiano", "categoria": "Moneda nacional", "pais": "Colombia" },
+  "CRC": { "nombre": "Colón costarricense", "categoria": "Moneda nacional", "pais": "Costa Rica" },
+  "CUP": { "nombre": "Peso cubano", "categoria": "Moneda nacional", "pais": "Cuba" },
+  "CVE": { "nombre": "Escudo caboverdiano", "categoria": "Moneda nacional", "pais": "Cabo Verde" },
+  "CZK": { "nombre": "Corona checa", "categoria": "Moneda nacional", "pais": "Chequia" },
+  "DJF": { "nombre": "Franco yibutiano", "categoria": "Moneda nacional", "pais": "Yibuti" },
+  "DKK": { "nombre": "Corona danesa", "categoria": "Moneda nacional", "pais": "Dinamarca" },
+  "DOP": { "nombre": "Peso dominicano", "categoria": "Moneda nacional", "pais": "República Dominicana" },
+  "DZD": { "nombre": "Dinar argelino", "categoria": "Moneda nacional", "pais": "Argelia" },
+
+  "EGP": { "nombre": "Libra egipcia", "categoria": "Moneda nacional", "pais": "Egipto" },
+  "ERN": { "nombre": "Nakfa eritreo", "categoria": "Moneda nacional", "pais": "Eritrea" },
+  "ETB": { "nombre": "Birr etíope", "categoria": "Moneda nacional", "pais": "Etiopía" },
+
+  "EUR": { "nombre": "Euro", "categoria": "Moneda nacional", "pais": "Unión Europea" },
+
+  "FJD": { "nombre": "Dólar fiyiano", "categoria": "Moneda nacional", "pais": "Fiyi" },
+  "FKP": { "nombre": "Libra malvinense", "categoria": "Moneda nacional", "pais": "Islas Malvinas" },
+
+  "GBP": { "nombre": "Libra esterlina", "categoria": "Moneda nacional", "pais": "Reino Unido" },
+  "GEL": { "nombre": "Lari georgiano", "categoria": "Moneda nacional", "pais": "Georgia" },
+  "GHS": { "nombre": "Cedi ghanés", "categoria": "Moneda nacional", "pais": "Ghana" },
+  "GIP": { "nombre": "Libra de Gibraltar", "categoria": "Moneda nacional", "pais": "Gibraltar" },
+  "GMD": { "nombre": "Dalasi gambiano", "categoria": "Moneda nacional", "pais": "Gambia" },
+  "GNF": { "nombre": "Franco guineano", "categoria": "Moneda nacional", "pais": "Guinea" },
+  "GTQ": { "nombre": "Quetzal guatemalteco", "categoria": "Moneda nacional", "pais": "Guatemala" },
+  "GYD": { "nombre": "Dólar guyanés", "categoria": "Moneda nacional", "pais": "Guyana" },
+
+  "HKD": { "nombre": "Dólar de Hong Kong", "categoria": "Moneda nacional", "pais": "Hong Kong" },
+  "HNL": { "nombre": "Lempira hondureña", "categoria": "Moneda nacional", "pais": "Honduras" },
+  "HRK": { "nombre": "Kuna croata", "categoria": "Moneda nacional", "pais": "Croacia" },
+  "HTG": { "nombre": "Gourde haitiano", "categoria": "Moneda nacional", "pais": "Haití" },
+  "HUF": { "nombre": "Forinto húngaro", "categoria": "Moneda nacional", "pais": "Hungría" },
+
+  "IDR": { "nombre": "Rupia indonesia", "categoria": "Moneda nacional", "pais": "Indonesia" },
+  "ILS": { "nombre": "Nuevo séquel israelí", "categoria": "Moneda nacional", "pais": "Israel" },
+  "INR": { "nombre": "Rupia india", "categoria": "Moneda nacional", "pais": "India" },
+  "IQD": { "nombre": "Dinar iraquí", "categoria": "Moneda nacional", "pais": "Irak" },
+  "IRR": { "nombre": "Rial iraní", "categoria": "Moneda nacional", "pais": "Irán" },
+  "ISK": { "nombre": "Corona islandesa", "categoria": "Moneda nacional", "pais": "Islandia" },
+
+  "JMD": { "nombre": "Dólar jamaiquino", "categoria": "Moneda nacional", "pais": "Jamaica" },
+  "JOD": { "nombre": "Dinar jordano", "categoria": "Moneda nacional", "pais": "Jordania" },
+  "JPY": { "nombre": "Yen japonés", "categoria": "Moneda nacional", "pais": "Japón" },
+
+  "KES": { "nombre": "Chelín keniano", "categoria": "Moneda nacional", "pais": "Kenia" },
+  "KGS": { "nombre": "Som kirguís", "categoria": "Moneda nacional", "pais": "Kirguistán" },
+  "KHR": { "nombre": "Riel camboyano", "categoria": "Moneda nacional", "pais": "Camboya" },
+  "KMF": { "nombre": "Franco comorense", "categoria": "Moneda nacional", "pais": "Comoras" },
+  "KRW": { "nombre": "Won surcoreano", "categoria": "Moneda nacional", "pais": "Corea del Sur" },
+  "KWD": { "nombre": "Dinar kuwaití", "categoria": "Moneda nacional", "pais": "Kuwait" },
+  "KYD": { "nombre": "Dólar de Islas Caimán", "categoria": "Moneda nacional", "pais": "Islas Caimán" },
+  "KZT": { "nombre": "Tenge kazajo", "categoria": "Moneda nacional", "pais": "Kazajistán" },
+
+  "LAK": { "nombre": "Kip laosiano", "categoria": "Moneda nacional", "pais": "Laos" },
+  "LBP": { "nombre": "Libra libanesa", "categoria": "Moneda nacional", "pais": "Líbano" },
+  "LKR": { "nombre": "Rupia de Sri Lanka", "categoria": "Moneda nacional", "pais": "Sri Lanka" },
+  "LRD": { "nombre": "Dólar liberiano", "categoria": "Moneda nacional", "pais": "Liberia" },
+  "LSL": { "nombre": "Loti lesotense", "categoria": "Moneda nacional", "pais": "Lesoto" },
+  "LYD": { "nombre": "Dinar libio", "categoria": "Moneda nacional", "pais": "Libia" },
+  "MAD": { "nombre": "Dirham marroquí", "categoria": "Moneda nacional", "pais": "Marruecos" },
+  "MDL": { "nombre": "Leu moldavo", "categoria": "Moneda nacional", "pais": "Moldavia" },
+  "MGA": { "nombre": "Ariary malgache", "categoria": "Moneda nacional", "pais": "Madagascar" },
+  "MKD": { "nombre": "Dinar macedonio", "categoria": "Moneda nacional", "pais": "Macedonia del Norte" },
+  "MMK": { "nombre": "Kyat birmano", "categoria": "Moneda nacional", "pais": "Myanmar" },
+  "MNT": { "nombre": "Tugrik mongol", "categoria": "Moneda nacional", "pais": "Mongolia" },
+  "MOP": { "nombre": "Pataca de Macao", "categoria": "Moneda nacional", "pais": "Macao" },
+  "MRU": { "nombre": "Uguiya mauritano", "categoria": "Moneda nacional", "pais": "Mauritania" },
+  "MUR": { "nombre": "Rupia mauriciana", "categoria": "Moneda nacional", "pais": "Mauricio" },
+  "MVR": { "nombre": "Rufiyaa maldiva", "categoria": "Moneda nacional", "pais": "Maldivas" },
+  "MWK": { "nombre": "Kwacha malauí", "categoria": "Moneda nacional", "pais": "Malaui" },
+  "MXN": { "nombre": "Peso mexicano", "categoria": "Moneda nacional", "pais": "México" },
+  "MYR": { "nombre": "Ringgit malayo", "categoria": "Moneda nacional", "pais": "Malasia" },
+  "MZN": { "nombre": "Metical mozambiqueño", "categoria": "Moneda nacional", "pais": "Mozambique" },
+
+  "NAD": { "nombre": "Dólar namibio", "categoria": "Moneda nacional", "pais": "Namibia" },
+  "NGN": { "nombre": "Naira nigeriana", "categoria": "Moneda nacional", "pais": "Nigeria" },
+  "NIO": { "nombre": "Córdoba nicaragüense", "categoria": "Moneda nacional", "pais": "Nicaragua" },
+  "NOK": { "nombre": "Corona noruega", "categoria": "Moneda nacional", "pais": "Noruega" },
+  "NPR": { "nombre": "Rupia nepalesa", "categoria": "Moneda nacional", "pais": "Nepal" },
+  "NZD": { "nombre": "Dólar neozelandés", "categoria": "Moneda nacional", "pais": "Nueva Zelanda" },
+
+  "OMR": { "nombre": "Rial omaní", "categoria": "Moneda nacional", "pais": "Omán" },
+
+  "PAB": { "nombre": "Balboa panameño", "categoria": "Moneda nacional", "pais": "Panamá" },
+  "PEN": { "nombre": "Sol peruano", "categoria": "Moneda nacional", "pais": "Perú" },
+  "PGK": { "nombre": "Kina papú", "categoria": "Moneda nacional", "pais": "Papúa Nueva Guinea" },
+  "PHP": { "nombre": "Peso filipino", "categoria": "Moneda nacional", "pais": "Filipinas" },
+  "PKR": { "nombre": "Rupia pakistaní", "categoria": "Moneda nacional", "pais": "Pakistán" },
+  "PLN": { "nombre": "Zloty polaco", "categoria": "Moneda nacional", "pais": "Polonia" },
+  "PYG": { "nombre": "Guaraní paraguayo", "categoria": "Moneda nacional", "pais": "Paraguay" },
+
+  "QAR": { "nombre": "Riyal catarí", "categoria": "Moneda nacional", "pais": "Catar" },
+
+  "RON": { "nombre": "Leu rumano", "categoria": "Moneda nacional", "pais": "Rumanía" },
+  "RSD": { "nombre": "Dinar serbio", "categoria": "Moneda nacional", "pais": "Serbia" },
+  "RUB": { "nombre": "Rublo ruso", "categoria": "Moneda nacional", "pais": "Rusia" },
+  "RWF": { "nombre": "Franco ruandés", "categoria": "Moneda nacional", "pais": "Ruanda" },
+  "SAR": { "nombre": "Riyal saudí", "categoria": "Moneda nacional", "pais": "Arabia Saudita" },
+  "SBD": { "nombre": "Dólar de las Islas Salomón", "categoria": "Moneda nacional", "pais": "Islas Salomón" },
+  "SCR": { "nombre": "Rupia seychellense", "categoria": "Moneda nacional", "pais": "Seychelles" },
+  "SDG": { "nombre": "Libra sudanesa", "categoria": "Moneda nacional", "pais": "Sudán" },
+  "SEK": { "nombre": "Corona sueca", "categoria": "Moneda nacional", "pais": "Suecia" },
+  "SGD": { "nombre": "Dólar de Singapur", "categoria": "Moneda nacional", "pais": "Singapur" },
+  "SHP": { "nombre": "Libra de Santa Elena", "categoria": "Moneda nacional", "pais": "Santa Elena" },
+  "SLE": { "nombre": "Leone sierraleonés", "categoria": "Moneda nacional", "pais": "Sierra Leona" },
+  "SOS": { "nombre": "Chelín somalí", "categoria": "Moneda nacional", "pais": "Somalia" },
+  "SRD": { "nombre": "Dólar surinamés", "categoria": "Moneda nacional", "pais": "Surinam" },
+  "SSP": { "nombre": "Libra sursudanesa", "categoria": "Moneda nacional", "pais": "Sudán del Sur" },
+  "STN": { "nombre": "Dobra de Santo Tomé y Príncipe", "categoria": "Moneda nacional", "pais": "Santo Tomé y Príncipe" },
+  "SYP": { "nombre": "Libra siria", "categoria": "Moneda nacional", "pais": "Siria" },
+  "SZL": { "nombre": "Lilangeni suazi", "categoria": "Moneda nacional", "pais": "Esuatini" },
+
+  "THB": { "nombre": "Baht tailandés", "categoria": "Moneda nacional", "pais": "Tailandia" },
+  "TJS": { "nombre": "Somoni tayiko", "categoria": "Moneda nacional", "pais": "Tayikistán" },
+  "TMT": { "nombre": "Manat turcomano", "categoria": "Moneda nacional", "pais": "Turkmenistán" },
+  "TND": { "nombre": "Dinar tunecino", "categoria": "Moneda nacional", "pais": "Túnez" },
+  "TOP": { "nombre": "Pa'anga tongano", "categoria": "Moneda nacional", "pais": "Tonga" },
+  "TRY": { "nombre": "Lira turca", "categoria": "Moneda nacional", "pais": "Turquía" },
+  "TTD": { "nombre": "Dólar de Trinidad y Tobago", "categoria": "Moneda nacional", "pais": "Trinidad y Tobago" },
+  "TVD": { "nombre": "Dólar tuvaluano", "categoria": "Moneda nacional", "pais": "Tuvalu" },
+  "TWD": { "nombre": "Nuevo dólar taiwanés", "categoria": "Moneda nacional", "pais": "Taiwán" },
+  "TZS": { "nombre": "Chelín tanzano", "categoria": "Moneda nacional", "pais": "Tanzania" },
+
+  "UAH": { "nombre": "Grivna ucraniana", "categoria": "Moneda nacional", "pais": "Ucrania" },
+  "UGX": { "nombre": "Chelín ugandés", "categoria": "Moneda nacional", "pais": "Uganda" },
+
+  "USD": { "nombre": "Dólar estadounidense", "categoria": "Moneda nacional", "pais": "Estados Unidos" },
+  "UYU": { "nombre": "Peso uruguayo", "categoria": "Moneda nacional", "pais": "Uruguay" },
+  "UZS": { "nombre": "Som uzbeko", "categoria": "Moneda nacional", "pais": "Uzbekistán" },
+
+  "VES": { "nombre": "Bolívar venezolano", "categoria": "Moneda nacional", "pais": "Venezuela" },
+  "VND": { "nombre": "Dong vietnamita", "categoria": "Moneda nacional", "pais": "Vietnam" },
+  "VUV": { "nombre": "Vatu vanuatuense", "categoria": "Moneda nacional", "pais": "Vanuatu" },
+
+  "WST": { "nombre": "Tala samoano", "categoria": "Moneda nacional", "pais": "Samoa" },
+
+  "XAF": { "nombre": "Franco CFA", "categoria": "Moneda regional", "pais": "África Central" },
+  "XCD": { "nombre": "Dólar del Caribe Oriental", "categoria": "Moneda regional", "pais": "Caribe Oriental" },
+  "XOF": { "nombre": "Franco CFA", "categoria": "Moneda regional", "pais": "África Occidental" },
+  "XPF": { "nombre": "Franco CFP", "categoria": "Moneda regional", "pais": "Polinesia Francesa" },
+
+  "YER": { "nombre": "Rial yemení", "categoria": "Moneda nacional", "pais": "Yemen" },
+
+  "ZAR": { "nombre": "Rand sudafricano", "categoria": "Moneda nacional", "pais": "Sudáfrica" },
+  "ZMW": { "nombre": "Kwacha zambiano", "categoria": "Moneda nacional", "pais": "Zambia" },
+  "ZWL": { "nombre": "Dólar zimbabuense", "categoria": "Moneda nacional", "pais": "Zimbabue" }
+}

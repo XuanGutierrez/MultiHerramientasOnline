@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Online - MultiHerramientasOnline</title>
+  <link rel="stylesheet" href="./css/calculadora.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Calculadora Online</h1>
+    <p>Realiza operaciones básicas y avanzadas de forma rápida y sencilla.</p>
+  </header>
+
+  <!--<div class="ad-space">Espacio para anuncios</div>-->
+
+  <main class="main">
+    <section class="calculator">
+      <input type="text" id="display" readonly placeholder="0">
+
+      <button id="toggleScientific" class="toggle-btn">Modo científico</button>
+
+      <div class="buttons basic-buttons">
+        <button class="btn" data-value="7">7</button>
+        <button class="btn" data-value="8">8</button>
+        <button class="btn" data-value="9">9</button>
+        <button class="btn operator" data-value="/">÷</button>
+
+        <button class="btn" data-value="4">4</button>
+        <button class="btn" data-value="5">5</button>
+        <button class="btn" data-value="6">6</button>
+        <button class="btn operator" data-value="*">×</button>
+
+        <button class="btn" data-value="1">1</button>
+        <button class="btn" data-value="2">2</button>
+        <button class="btn" data-value="3">3</button>
+        <button class="btn operator" data-value="-">−</button>
+
+        <button class="btn" data-value="0">0</button>
+        <button class="btn" data-value=".">.</button>
+        <button class="btn clear" id="clear">C</button>
+        <button class="btn operator" data-value="+">+</button>
+
+        <button class="btn equal" id="equal">=</button>
+      </div>
+
+      <div class="buttons scientific-buttons hidden">
+        <button class="btn sci" data-func="sin">sin</button>
+        <button class="btn sci" data-func="cos">cos</button>
+        <button class="btn sci" data-func="tan">tan</button>
+        <button class="btn sci" data-func="sqrt">√</button>
+        <button class="btn sci" data-func="pow">x²</button>
+        <button class="btn sci" data-func="log">log</button>
+        <button class="btn sci" data-func="pi">π</button>
+        <button class="btn sci" data-func="exp">eˣ</button>
+      </div>
+    </section>
+  </main>
+
+  <!--<div class="ad-space">Espacio para anuncios</div>-->
+
+  <footer class="footer">
+    <a href="../index.html">MultiHerramientasOnline</a>
+    <p>© 2026 MultiHerramientasOnline — Herramientas gratuitas para todos</p>
+  </footer>
+
+  <script src="./javascript/calculadora.js"></script>
+</body>
+</html>

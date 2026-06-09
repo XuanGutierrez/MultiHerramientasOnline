@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Códigos QR - MultiHerramientasOnline</title>
+  <link rel="stylesheet" href="./css/qr.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Generador de Códigos QR Online</h1>
+    <p>Crea códigos QR para enlaces, textos, WiFi y más en segundos.</p>
+  </header>
+
+  <main class="main">
+    <section class="qr-tool">
+      <h2>Genera tu código QR</h2>
+
+      <div class="qr-form">
+        <label for="qrText">Texto o URL para el QR</label>
+        <textarea id="qrText" rows="3" placeholder="Escribe aquí tu enlace, texto, número de teléfono, etc."></textarea>
+
+        <div class="options-row">
+          <div>
+            <label for="qrSize">Tamaño</label>
+            <select id="qrSize">
+              <option value="128">128 x 128</option>
+              <option value="192">192 x 192</option>
+              <option value="256" selected>256 x 256</option>
+              <option value="320">320 x 320</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="qrColor">Color</label>
+            <input type="color" id="qrColor" value="#000000">
+          </div>
+
+          <div>
+            <label for="qrBgColor">Fondo</label>
+            <input type="color" id="qrBgColor" value="#ffffff">
+          </div>
+        </div>
+
+        <button id="generateBtn">Generar QR</button>
+      </div>
+
+      <div class="qr-result">
+        <h3>Vista previa</h3>
+        <div id="qrContainer" class="qr-container"></div>
+        <button id="downloadBtn" class="download-btn" disabled>Descargar PNG</button>
+      </div>
+
+      <div id="resultBox" class="result-box"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="../index.html">MultiHerramientasOnline</a>
+    <p>© 2026 MultiHerramientasOnline — Herramientas gratuitas para todos</p>
+  </footer>
+
+  <!-- Librería ligera para QR (CDN) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="./javascript/qr.js"></script>
+</body>
+</html>

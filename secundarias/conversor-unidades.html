@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Unidades - MultiHerramientasOnline</title>
+  <link rel="stylesheet" href="./css/unidades.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Conversor de Unidades</h1>
+    <p>Convierte fácilmente entre distintas unidades de longitud, peso, temperatura y más.</p>
+  </header>
+
+  <!--<div class="ad-space">Espacio para anuncios</div>-->
+
+  <main class="main">
+    <section class="converter">
+      <div class="converter-row">
+        <label for="categorySelect">Tipo de unidad</label>
+        <select id="categorySelect">
+          <option value="length">Longitud</option>
+          <option value="weight">Peso</option>
+          <option value="temperature">Temperatura</option>
+          <option value="speed">Velocidad</option>
+        </select>
+      </div>
+
+      <div class="converter-row">
+        <label for="fromValue">Valor</label>
+        <input type="number" id="fromValue" placeholder="Introduce un valor">
+      </div>
+
+      <div class="converter-row">
+        <label for="fromUnit">De</label>
+        <select id="fromUnit"></select>
+      </div>
+
+      <div class="converter-row">
+        <label for="toUnit">A</label>
+        <select id="toUnit"></select>
+      </div>
+
+      <button id="convertBtn">Convertir</button>
+
+      <div id="resultBox" class="result-box"></div>
+    </section>
+  </main>
+
+  <!--<div class="ad-space">Espacio para anuncios</div>-->
+
+  <footer class="footer">
+    <a href="../index.html">MultiHerramientasOnline</a>
+    <p>© 2026 MultiHerramientasOnline — Herramientas gratuitas para todos</p>
+  </footer>
+
+  <script src="./javascript/unidades.js"></script>
+</body>
+</html>

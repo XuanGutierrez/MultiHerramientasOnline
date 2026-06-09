@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+.header {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.header p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* ===== ESPACIO PARA ANUNCIOS ===== */
+.ad-space {
+  background: #e0e0e0;
+  text-align: center;
+  margin: 30px auto;
+  padding: 40px;
+  width: 85%;
+  border-radius: 12px;
+  color: #555;
+  font-size: 1.1rem;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* ===== MAIN ===== */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* ===== CONVERSOR ===== */
+.converter {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  width: 90%;
+  max-width: 480px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.converter:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.converter-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+  text-align: left;
+}
+
+.converter-row label {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: #222;
+}
+
+.converter-row input,
+.converter-row select {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.converter-row input:focus,
+.converter-row select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* ===== BOTÓN ===== */
+#convertBtn {
+  width: 100%;
+  padding: 0.9rem;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#convertBtn:hover {
+  background: linear-gradient(135deg, #0056b3, #0099ff);
+  transform: scale(1.03);
+}
+
+/* ===== RESULTADO ===== */
+.result-box {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #eef5ff;
+  border-radius: 10px;
+  color: #004085;
+  font-weight: 500;
+  font-size: 1.05rem;
+  min-height: 2rem;
+  box-shadow: inset 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: 60px;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+
+.footer a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer p {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #e0e0e0;
+}
+/* 📱 RESPONSIVE PARA MÓVILES */
+@media (max-width: 768px) {
+
+    /* ===== HEADER ===== */
+    .header {
+        padding: 35px 15px;
+    }
+
+    .header h1 {
+        font-size: 1.9rem;
+    }
+
+    .header p {
+        font-size: 0.95rem;
+    }
+
+    /* ===== MAIN ===== */
+    .main {
+        padding: 15px;
+    }
+
+    /* ===== CONVERSOR ===== */
+    .converter {
+        padding: 1.8rem;
+        width: 100%;
+        border-radius: 14px;
+    }
+
+    .converter-row {
+        margin-bottom: 1rem;
+    }
+
+    .converter-row label {
+        font-size: 0.95rem;
+    }
+
+    .converter-row input,
+    .converter-row select {
+        padding: 0.7rem;
+        font-size: 0.95rem;
+        border-radius: 8px;
+    }
+
+    /* ===== BOTÓN ===== */
+    #convertBtn {
+        padding: 0.8rem;
+        font-size: 1rem;
+        border-radius: 8px;
+        margin-top: 15px;
+    }
+
+    /* ===== RESULTADO ===== */
+    .result-box {
+        font-size: 1rem;
+        padding: 0.8rem;
+        margin-top: 1.2rem;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+        padding: 18px;
+        font-size: 0.85rem;
+    }
+
+    .footer a {
+        font-size: 0.9rem;
+    }
+}

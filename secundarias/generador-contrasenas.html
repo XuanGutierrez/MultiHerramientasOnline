@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Contraseñas - MultiHerramientasOnline</title>
+  <link rel="stylesheet" href="./css/contrasenas.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Generador de Contraseñas</h1>
+    <p>Crea contraseñas seguras al instante.</p>
+  </header>
+
+  <!--
+  <div class="ad-space">Espacio para anuncios (superior)</div>
+  -->
+
+  <main class="main">
+
+    <!--
+    <aside class="ads-vertical left-ads">
+      <div class="ads-placeholder">Espacio para anuncios</div>
+    </aside>
+    -->
+
+    <section class="password-generator">
+      <div class="generator-box">
+        <input type="text" id="password" readonly placeholder="Tu contraseña aparecerá aquí">
+        <button id="generateBtn">Generar</button>
+        <button id="copyBtn">Copiar</button>
+      </div>
+
+      <div class="options">
+        <label><input type="checkbox" id="includeUppercase" checked> Mayúsculas</label>
+        <label><input type="checkbox" id="includeNumbers" checked> Números</label>
+        <label><input type="checkbox" id="includeSymbols" checked> Símbolos</label>
+        <label>Longitud: <input type="number" id="length" min="6" max="30" value="12"></label>
+      </div>
+
+      <div id="strengthIndicator" class="strength weak">Seguridad: Débil</div>
+    </section>
+
+    <!--
+    <aside class="ads-vertical right-ads">
+      <div class="ads-placeholder">Espacio para anuncios</div>
+    </aside>
+    -->
+
+    <!--
+    <div class="ad-bottom">HUECO PARA ANUNCIO</div>
+    -->
+
+  </main>
+
+  <footer class="footer">
+    <a href="../index.html">MultiHerramientasOnline</a>
+    <p>© 2026 MultiHerramientasOnline — Herramientas gratuitas para todos</p>
+  </footer>
+
+  <script src="./javascript/contrasenas.js"></script>
+</body>
+</html>
