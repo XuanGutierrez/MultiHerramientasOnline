@@ -122,27 +122,86 @@ button:hover {
 .strength.medium { background-color: #ffcc00; color: #333; }
 .strength.strong { background-color: #4CAF50; color: white; }
 
-/* ===== FOOTER ===== */
-.footer {
-  background: linear-gradient(135deg, #007bff, #00c6ff);
+/* ===== FOOTER SEO ===== */
+.footer-seo {
+  background: linear-gradient(135deg, #0077ff, #00c6ff);
   color: white;
+  padding: 40px 20px;
   text-align: center;
-  padding: 25px;
-  font-size: 0.95rem;
-  letter-spacing: 0.5px;
-  margin-top: auto; /* empuja el footer al fondo */
+  margin-top: 60px;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
 }
 
-.footer a {
-  color: #fff;
+/* Texto informativo */
+.footer-info {
+  max-width: 900px;
+  margin: 0 auto 25px;
+}
+
+.footer-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
   font-weight: 600;
-  text-decoration: none;
-  transition: color 0.3s ease;
 }
 
-.footer a:hover {
-  color: #e0e0e0;
+.footer-info p {
+  font-size: 1rem;
+  line-height: 1.7;
+  opacity: 0.95;
 }
+.footer-info a{
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.footer-info a:hover{
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
+/* Enlaces legales */
+#list-links {
+  list-style: none;
+  margin: 25px 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+#list-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#list-links li a:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-3px);
+}
+
+/* Copyright */
+.footer-copy {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+.footer-copy a.footer-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-copy a.footer-link:hover {
+  text-decoration: underline;
+  opacity: 0.9;
+}
+
 /* 📱 RESPONSIVE PARA MÓVILES */
 @media (max-width: 768px) {
 
