@@ -382,6 +382,50 @@ footer {
   }
 }
 
+/* Banner de cookies responsive */
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  z-index: 9999;
+}
+
+#cookie-banner a {
+  color: #4ea3ff;
+}
+
+#cookie-banner button {
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+#cookie-accept {
+  background: #4caf50;
+}
+
+#cookie-reject {
+  background: #f44336;
+}
+
+@media (max-width: 768px) {
+  #cookie-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
 /* 📱 RESPONSIVE PARA MÓVILES */
 @media (max-width: 768px) {
 
